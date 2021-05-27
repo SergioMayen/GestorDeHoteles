@@ -1,0 +1,52 @@
+Usuario:
+	nombre
+	apellido
+	usuario
+	contraseña
+	rol
+	imagen
+
+Hotel:
+	nombre
+	direccion
+	telefono
+	descripcion
+	popularidad
+	habitaciones:{
+		numero
+		camas
+		estado
+		precio
+	}
+	idAdministrador
+
+Reservacion:
+	idUsuario
+	fecha de llegada
+	fecha de salida
+	idHabitacion
+	idHotel
+
+Evento:
+	nombre
+	descripcion
+	hora
+	fecha
+	idTipoEvento
+	idHotel
+
+tipoEvento:
+	nombre
+
+Servicio:
+	nombre
+	descripcion
+	precio
+	idHotel
+
+Factura:
+	idUsuario
+	idHotel
+	idHabitacion
+	idServicio
+	Total
